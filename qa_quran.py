@@ -20,11 +20,11 @@ def retriever():
 
 retriever = retriever()
 
-if not(path.exists('data/mlm-temp')):
-    reader = FARMReader(model_name_or_path="deepset/albert_xxlargev1_squad2_512", use_gpu=False)
+if not(path.exists('data/albert_xxlargev1_squad2_512')):
+    reader = FARMReader(model_name_or_path="ahotrod/albert_xxlargev1_squad2_512", use_gpu=False)
     reader.save(directory='data/albert_xxlargev1_squad2_512')
 else:
-    reader = FARMReader(model_name_or_path="data/albert_xxlargev1_squad2_512", use_gpu=False)
+    reader = FARMReader(model_name_or_path="ahotrod/albert_xxlargev1_squad2_512", use_gpu=False)
     
 finder = Finder(reader, retriever)
 
