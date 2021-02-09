@@ -8,4 +8,4 @@ Model Disclaimer: The model is only used to show case Q&A System and shall conta
 
 Visit App: MLM Minmal used to just deploy on Heroku and show concept. (The ouput may be incorrect but faster than other models)
 
-https://mhemani-qa-quran.herokuapp.com/
+https://gradio.app/g/MesumRaza/qa_quran_gradio
